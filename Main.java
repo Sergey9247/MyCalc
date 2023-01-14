@@ -5,7 +5,7 @@ public class Main {
         System.out.println("Введите данные: ");
         String input = s.nextLine();
         String output = calc(input);
-        if (output == null){System.out.println("Неверный формат");}
+        if (output == null){System.out.println("Неверный формат, попробуй еще раз.");}
         else {System.out.println(output);}
     }
 
